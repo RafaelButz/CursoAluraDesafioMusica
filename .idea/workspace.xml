@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="8168105c-536c-4f2b-8394-5894375d519c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CursoAluraDesafioMusica.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Audio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Musicas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PodCasts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
+    <list default="true" id="8168105c-536c-4f2b-8394-5894375d519c" name="Changes" comment="Criando esboço do projeto Exercicio Alura Musicas.">
+      <change afterPath="$PROJECT_DIR$/src/Albuns.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Audio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Audio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Musicas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Musicas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +35,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -49,6 +48,18 @@
       <option name="presentableId" value="Default" />
       <updated>1681765456104</updated>
     </task>
+    <task id="LOCAL-00001" summary="Criando esboço do projeto Exercicio Alura Musicas.">
+      <created>1681765875357</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681765875357</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Criando esboço do projeto Exercicio Alura Musicas." />
+    <option name="LAST_COMMIT_MESSAGE" value="Criando esboço do projeto Exercicio Alura Musicas." />
   </component>
 </project>

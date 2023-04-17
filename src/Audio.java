@@ -1,7 +1,16 @@
 public class Audio {
     private String titulo;
     private String genero;
-    private int Duracao;
+    private int quantidadeDeArquivos;
+    private int duracao;
+
+    public int getQuantidadeDeArquivos() {
+        return quantidadeDeArquivos;
+    }
+
+    public void setQuantidadeDeArquivos(int quantidadeDeArquivos) {
+        this.quantidadeDeArquivos = quantidadeDeArquivos;
+    }
 
     public String getTitulo() {
         return titulo;
@@ -20,10 +29,10 @@ public class Audio {
     }
 
     public int getDuracao() {
-        return Duracao;
+        return duracao;
     }
 
     public void setDuracao(int duracao) {
-        Duracao = duracao;
+        this.duracao = duracao;
     }
 }
