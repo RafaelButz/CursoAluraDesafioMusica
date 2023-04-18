@@ -1,17 +1,19 @@
-public class Audio {
+package br.cursoalurajava.desafio.forma;
+
+public class Audio{
     private String titulo;
     private String genero;
     private String nome;
-    private String nomeDaFaixa;
     private int quantidadeDeArquivos;
-    private double duracao;
-    private int numeroDaFaixa;
 
+    private double tempoTotal;
 
-    public void criaFaixa(String nomeDaFaixa, int numeroDaFaixa, double duracao) {
-        this.duracao = duracao;
-        this.nomeDaFaixa = nomeDaFaixa;
-        this.numeroDaFaixa = numeroDaFaixa;
+    public double getTempoTotal() {
+        return tempoTotal;
+    }
+
+    public void setTempoTotal(double tempoTotal) {
+        this.tempoTotal = tempoTotal;
     }
 
     public void cricao(String titulo, String genero, String nomeComplementar, int quantidadeDeArquivos) {
@@ -41,4 +43,6 @@ public class Audio {
         public int getQuantidadeDeArquivos() {
         return quantidadeDeArquivos;
     }
+
+
 }
