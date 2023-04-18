@@ -1,15 +1,16 @@
 public class Audio {
     private String titulo;
     private String genero;
-    private int quantidadeDeArquivos;
-    private int duracao;
+    private String nome;
+    private double duração;
 
-    public int getQuantidadeDeArquivos() {
-        return quantidadeDeArquivos;
-    }
 
-    public void setQuantidadeDeArquivos(int quantidadeDeArquivos) {
-        this.quantidadeDeArquivos = quantidadeDeArquivos;
+    public void cricao(String titulo, String genero, String nome, double duração){
+        this.titulo = titulo;
+        this.genero = genero;
+        this.nome = nome;
+        this.duração = duração;
+
     }
 
     public String getTitulo() {
@@ -28,11 +29,21 @@ public class Audio {
         this.genero = genero;
     }
 
-    public int getDuracao() {
-        return duracao;
+    public String getNome() {
+        return nome;
     }
 
-    public void setDuracao(int duracao) {
-        this.duracao = duracao;
+    public void setNome(String nome) {
+        this.nome = nome;
     }
+
+    public double getDuração() {
+        return duração;
+    }
+
+    public void setDuração(double duração) {
+        this.duração = duração;
+    }
+
+
 }

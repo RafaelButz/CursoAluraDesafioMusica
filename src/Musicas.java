@@ -1,12 +1,12 @@
-public class Musicas {
-    private String nomeDaMusica;
-    private double tempoDeDuracao;
-    private Albuns albuns;
+public class Musicas extends Audio{
+    private double tempoTotalDeDuracao;
+    private int quantidadeDeMusicas = 0;
 
-    public void incluiMusica(Albuns albuns, String nomeDaMusica, double tempoDeDuracao){
-        this.albuns = albuns;
-        this.nomeDaMusica = nomeDaMusica;
-        this.tempoDeDuracao = tempoDeDuracao;
+    public double getTempoTotalDeDuracao() {
+        return tempoTotalDeDuracao;
     }
 
+    public void setTempoTotalDeDuracao(double tempoTotalDeDuracao) {
+        this.tempoTotalDeDuracao = tempoTotalDeDuracao;
+    }
 }
