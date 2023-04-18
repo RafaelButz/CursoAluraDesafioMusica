@@ -15,6 +15,6 @@ public class Musicas extends Faixas implements ClassificaDepressao {
 
     @Override
     public double getFazAlgo() {
-        return media() ;
+        return media();
     }
 }

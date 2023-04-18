@@ -6,6 +6,8 @@ import br.cursoalurajava.desafio.forma.SuaClassificacao;
 
 public class Principal {
     public static void main(String[] args) {
+
+
         SuaClassificacao oQueAMediaDiz = new SuaClassificacao();
         TempoAlbum somaTempo = new TempoAlbum();
 
@@ -36,6 +38,9 @@ public class Principal {
         novaFaixaMusica2.imprimiFaixa();
 
 
+        System.out.println("========================================================================================");
+        System.out.println("========================================================================================");
+        System.out.println("========================================================================================");
 
         //============================================================================================================
         //============================================================================================================
@@ -47,11 +52,8 @@ public class Principal {
         novoPodCast.setAvalia(5);
         novoPodCast.setAvalia(8);
 
-        oQueAMediaDiz.fazAlgo(novoPodCast);
         novoPodCast.imprimi();
-
-
-
+        oQueAMediaDiz.fazAlgo(novoPodCast);
 
         Faixas novaFaixaPodCast1 = new Faixas();
         novaFaixaPodCast1.criaFaixa(novoPodCast, "Descobrimento", 1, 125);
@@ -69,9 +71,6 @@ public class Principal {
         novaFaixaPodCast1.imprimiFaixa();
         novaFaixaPodCast2.imprimiFaixa();
         novaFaixaPodCast3.imprimiFaixa();
-
-
-
 
 
     }
