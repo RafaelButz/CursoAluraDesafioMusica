@@ -1,12 +1,11 @@
-public class Musicas extends Audio{
-    private double tempoTotalDeDuracao;
-    private int quantidadeDeMusicas = 0;
+public class Musicas extends Audio {
 
-    public double getTempoTotalDeDuracao() {
-        return tempoTotalDeDuracao;
+    public void imprimi() {
+        super.imprimi();
+        System.out.println("Artista: " + getNome());
+        System.out.println("Musicas: " + getQuantidadeDeArquivos());
     }
 
-    public void setTempoTotalDeDuracao(double tempoTotalDeDuracao) {
-        this.tempoTotalDeDuracao = tempoTotalDeDuracao;
-    }
+
+
 }

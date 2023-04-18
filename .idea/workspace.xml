@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8168105c-536c-4f2b-8394-5894375d519c" name="Changes" comment="Incluido novos arquivos e metodos">
-      <change afterPath="$PROJECT_DIR$/src/Imprimivel.java" afterDir="false" />
+    <list default="true" id="8168105c-536c-4f2b-8394-5894375d519c" name="Changes" comment="Reiniciando projeto.">
+      <change afterPath="$PROJECT_DIR$/src/Faixas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Albuns.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Audio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Audio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Imprimivel.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Musicas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Musicas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PodCasts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PodCasts.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
@@ -30,6 +30,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="e9d532c5-4fdc-43ae-8431-e250309dd065" />
+        <option name="url" value="https://github.com/RafaelekztuB/CursoAluraDesafioMusica.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectId" id="2OZQ7DQ3eZUkwTWW7COB44Bp0t5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -68,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681767434103</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Reiniciando projeto.">
+      <created>1681825360797</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681825360797</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -85,6 +105,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Criando esboço do projeto Exercicio Alura Musicas." />
     <MESSAGE value="Incluido novos arquivos e metodos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Incluido novos arquivos e metodos" />
+    <MESSAGE value="Reiniciando projeto." />
+    <option name="LAST_COMMIT_MESSAGE" value="Reiniciando projeto." />
   </component>
 </project>

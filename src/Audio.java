@@ -2,48 +2,43 @@ public class Audio {
     private String titulo;
     private String genero;
     private String nome;
-    private double duração;
+    private String nomeDaFaixa;
+    private int quantidadeDeArquivos;
+    private double duracao;
+    private int numeroDaFaixa;
 
 
-    public void cricao(String titulo, String genero, String nome, double duração){
+    public void criaFaixa(String nomeDaFaixa, int numeroDaFaixa, double duracao) {
+        this.duracao = duracao;
+        this.nomeDaFaixa = nomeDaFaixa;
+        this.numeroDaFaixa = numeroDaFaixa;
+    }
+
+    public void cricao(String titulo, String genero, String nomeComplementar, int quantidadeDeArquivos) {
         this.titulo = titulo;
         this.genero = genero;
-        this.nome = nome;
-        this.duração = duração;
+        this.nome = nomeComplementar;
+        this.quantidadeDeArquivos = quantidadeDeArquivos;
+    }
 
+    public void imprimi() {
+        System.out.println("================================================");
+        System.out.println("Titulo: " + getTitulo());
+        System.out.println("Genero: " + getGenero());
     }
 
     public String getTitulo() {
         return titulo;
     }
 
-    public void setTitulo(String titulo) {
-        this.titulo = titulo;
-    }
-
     public String getGenero() {
         return genero;
-    }
-
-    public void setGenero(String genero) {
-        this.genero = genero;
     }
 
     public String getNome() {
         return nome;
     }
-
-    public void setNome(String nome) {
-        this.nome = nome;
+        public int getQuantidadeDeArquivos() {
+        return quantidadeDeArquivos;
     }
-
-    public double getDuração() {
-        return duração;
-    }
-
-    public void setDuração(double duração) {
-        this.duração = duração;
-    }
-
-
 }
