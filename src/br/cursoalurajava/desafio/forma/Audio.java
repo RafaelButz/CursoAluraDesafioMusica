@@ -1,10 +1,13 @@
 package br.cursoalurajava.desafio.forma;
 
-public class Audio{
+public class Audio {
     private String titulo;
     private String genero;
     private String nome;
     private int quantidadeDeArquivos;
+    private int quantidadeDeAvaliacao;
+    private double avalia;
+    private double somaAvaliacao;
 
     private double tempoTotal;
 
@@ -44,5 +47,16 @@ public class Audio{
         return quantidadeDeArquivos;
     }
 
+    public void setAvalia(double avalia) {
+        this.avalia = avalia;
+        somaAvaliacao+=avalia;
+        quantidadeDeAvaliacao++;
+    }
 
+    public double media(){
+        return somaAvaliacao / quantidadeDeAvaliacao;
+}
+    public double getAvalia() {
+        return avalia;
+    }
 }

@@ -1,8 +1,9 @@
 package br.curso.alura.desafio.formasde;
 
 import br.cursoalurajava.desafio.forma.Faixas;
+import br.cursoalurajava.desafio.forma.ClassificaDepressao;
 
-public class PodCasts extends Faixas {
+public class PodCasts extends Faixas implements ClassificaDepressao {
 
     @Override
     public void imprimi() {
@@ -12,7 +13,8 @@ public class PodCasts extends Faixas {
     }
 
 
-
-
-
+    @Override
+    public double getFazAlgo() {
+        return media();
+    }
 }

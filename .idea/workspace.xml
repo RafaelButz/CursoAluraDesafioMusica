@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8168105c-536c-4f2b-8394-5894375d519c" name="Changes" comment="Alterei de mais, nem sei mais onde">
-      <change afterPath="$PROJECT_DIR$/src/br/curso/alura/desafio/formasde/TempoAlbum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/cursoalurajava/desafio/forma/Faixas.java" afterDir="false" />
+    <list default="true" id="8168105c-536c-4f2b-8394-5894375d519c" name="Changes" comment="Novas formas de fazer algumas coisas">
+      <change afterPath="$PROJECT_DIR$/src/br/cursoalurajava/desafio/forma/ClassificaDepressao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/cursoalurajava/desafio/forma/SuaClassificacao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Audio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/cursoalurajava/desafio/forma/Audio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Faixas.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Musicas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Musicas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PodCasts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PodCasts.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/curso/alura/desafio/formasde/Musicas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/curso/alura/desafio/formasde/Musicas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/curso/alura/desafio/formasde/PodCasts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/curso/alura/desafio/formasde/PodCasts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/cursoalurajava/desafio/forma/Audio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/cursoalurajava/desafio/forma/Audio.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681843075313</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Novas formas de fazer algumas coisas">
+      <created>1681853448700</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1681853448700</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,6 +121,7 @@
     <MESSAGE value="Incluido novos arquivos e metodos" />
     <MESSAGE value="Reiniciando projeto." />
     <MESSAGE value="Alterei de mais, nem sei mais onde" />
-    <option name="LAST_COMMIT_MESSAGE" value="Alterei de mais, nem sei mais onde" />
+    <MESSAGE value="Novas formas de fazer algumas coisas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Novas formas de fazer algumas coisas" />
   </component>
 </project>

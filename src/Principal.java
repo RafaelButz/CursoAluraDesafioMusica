@@ -2,15 +2,23 @@ import br.curso.alura.desafio.formasde.Musicas;
 import br.curso.alura.desafio.formasde.PodCasts;
 import br.curso.alura.desafio.formasde.TempoAlbum;
 import br.cursoalurajava.desafio.forma.Faixas;
+import br.cursoalurajava.desafio.forma.SuaClassificacao;
 
 public class Principal {
     public static void main(String[] args) {
-
+        SuaClassificacao oQueAMediaDiz = new SuaClassificacao();
         TempoAlbum somaTempo = new TempoAlbum();
 
         Musicas novasMusicas = new Musicas();
-        novasMusicas.cricao("br.curso.alura.desafio.formasde.Musicas para Sofrer", "Sertanejo","Bruno & Marrone", 20);
+        novasMusicas.cricao("Musicas para Sofrer", "Sertanejo","Bruno & Marrone", 20);
+        novasMusicas.setAvalia(10);
+        novasMusicas.setAvalia(10);
+        novasMusicas.setAvalia(10);
+        novasMusicas.setAvalia(10);
+
+
         novasMusicas.imprimi();
+        oQueAMediaDiz.fazAlgo(novasMusicas);
 
 
         Faixas novaFaixaMusica1 = new Faixas();
@@ -34,6 +42,12 @@ public class Principal {
         TempoAlbum somaTempo2 = new TempoAlbum();
         PodCasts novoPodCast = new PodCasts();
         novoPodCast.cricao("Aulas", "Historia", "Brasil, 10.000 AC", 10);
+        novoPodCast.setAvalia(10);
+        novoPodCast.setAvalia(9);
+        novoPodCast.setAvalia(5);
+        novoPodCast.setAvalia(8);
+
+        oQueAMediaDiz.fazAlgo(novoPodCast);
         novoPodCast.imprimi();
 
 
@@ -55,6 +69,8 @@ public class Principal {
         novaFaixaPodCast1.imprimiFaixa();
         novaFaixaPodCast2.imprimiFaixa();
         novaFaixaPodCast3.imprimiFaixa();
+
+
 
 
 
