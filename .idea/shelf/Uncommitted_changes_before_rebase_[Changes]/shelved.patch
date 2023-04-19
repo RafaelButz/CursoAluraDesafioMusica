@@ -1,0 +1,122 @@
+Index: src/Musicas.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>public class Musicas {\r\n    private String nomeDaMusica;\r\n    private double tempoDeDuracao;\r\n    private Albuns albuns;\r\n\r\n    public void incluiMusica(Albuns albuns, String nomeDaMusica, double tempoDeDuracao){\r\n        this.albuns = albuns;\r\n        this.nomeDaMusica = nomeDaMusica;\r\n        this.tempoDeDuracao = tempoDeDuracao;\r\n    }\r\n\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Musicas.java b/src/Musicas.java
+--- a/src/Musicas.java	(revision dcca83475354970def506c1ae260a11d7c1cd3b3)
++++ b/src/Musicas.java	(date 1681817869457)
+@@ -1,4 +1,4 @@
+-public class Musicas {
++public class Musicas extends Albuns{
+     private String nomeDaMusica;
+     private double tempoDeDuracao;
+     private Albuns albuns;
+@@ -9,4 +9,5 @@
+         this.tempoDeDuracao = tempoDeDuracao;
+     }
+ 
++
+ }
+Index: src/Albuns.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>public class Albuns extends Audio {\r\n    private String artista;\r\n    private String disco;\r\n\r\n    public String getArtista() {\r\n        return artista;\r\n    }\r\n    public void setArtista(String artista) {\r\n        this.artista = artista;\r\n    }\r\n\r\n    public String getDisco() {\r\n        return disco;\r\n    }\r\n\r\n    public void setDisco(String disco) {\r\n        this.disco = disco;\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Albuns.java b/src/Albuns.java
+--- a/src/Albuns.java	(revision dcca83475354970def506c1ae260a11d7c1cd3b3)
++++ b/src/Albuns.java	(date 1681817869446)
+@@ -1,4 +1,4 @@
+-public class Albuns extends Audio {
++public class Album extends Audio {
+     private String artista;
+     private String disco;
+ 
+Index: src/PRincipal2.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/PRincipal2.java b/src/PRincipal2.java
+new file mode 100644
+--- /dev/null	(date 1681817869442)
++++ b/src/PRincipal2.java	(date 1681817869442)
+@@ -0,0 +1,5 @@
++public class PRincipal2 {
++    public static void main(String[] args) {
++
++    }
++}
+Index: src/RetornaPlayList.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/RetornaPlayList.java b/src/RetornaPlayList.java
+new file mode 100644
+--- /dev/null	(date 1681817869452)
++++ b/src/RetornaPlayList.java	(date 1681817869452)
+@@ -0,0 +1,4 @@
++public interface RetornaPlayList {
++    int getRetornaPlayList();
++
++}
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"8168105c-536c-4f2b-8394-5894375d519c\" name=\"Changes\" comment=\"Criando esboço do projeto Exercicio Alura Musicas.\">\r\n      <change afterPath=\"$PROJECT_DIR$/src/Albuns.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Audio.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Audio.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Musicas.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Musicas.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Principal.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Principal.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2OZQ7DQ3eZUkwTWW7COB44Bp0t5\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"git-widget-placeholder\": \"master\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"8168105c-536c-4f2b-8394-5894375d519c\" name=\"Changes\" comment=\"\" />\r\n      <created>1681765456104</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1681765456104</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Criando esboço do projeto Exercicio Alura Musicas.\">\r\n      <created>1681765875357</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1681765875357</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"2\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Criando esboço do projeto Exercicio Alura Musicas.\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Criando esboço do projeto Exercicio Alura Musicas.\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision dcca83475354970def506c1ae260a11d7c1cd3b3)
++++ b/.idea/workspace.xml	(date 1681816102667)
+@@ -4,12 +4,8 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="8168105c-536c-4f2b-8394-5894375d519c" name="Changes" comment="Criando esboço do projeto Exercicio Alura Musicas.">
+-      <change afterPath="$PROJECT_DIR$/src/Albuns.java" afterDir="false" />
++    <list default="true" id="8168105c-536c-4f2b-8394-5894375d519c" name="Changes" comment="Incluido novos arquivos e metodos">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Audio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Audio.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Musicas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Musicas.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -36,6 +32,7 @@
+   "keyToString": {
+     "RunOnceActivity.OpenProjectViewOnStart": "true",
+     "RunOnceActivity.ShowReadmeOnStart": "true",
++    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+     "git-widget-placeholder": "master"
+   }
+ }]]></component>
+@@ -55,11 +52,19 @@
+       <option name="project" value="LOCAL" />
+       <updated>1681765875357</updated>
+     </task>
+-    <option name="localTasksCounter" value="2" />
++    <task id="LOCAL-00002" summary="Incluido novos arquivos e metodos">
++      <created>1681767434103</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1681767434103</updated>
++    </task>
++    <option name="localTasksCounter" value="3" />
+     <servers />
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="Criando esboço do projeto Exercicio Alura Musicas." />
+-    <option name="LAST_COMMIT_MESSAGE" value="Criando esboço do projeto Exercicio Alura Musicas." />
++    <MESSAGE value="Incluido novos arquivos e metodos" />
++    <option name="LAST_COMMIT_MESSAGE" value="Incluido novos arquivos e metodos" />
+   </component>
+ </project>
+\ No newline at end of file
